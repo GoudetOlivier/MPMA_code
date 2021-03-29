@@ -1,0 +1,14 @@
+INFO:root:############################
+INFO:root:Start ITS
+INFO:root:############################
+INFO:root:Tabucol duration : 156.77661991119385
+INFO:root:Epoch : 0 iter : 0
+INFO:root:Pop best : 0_worst : 10_avg : 4.00105794271
+INFO:root:Tabucol duration : 156.859703540802
+INFO:root:Tabucol duration : 156.89996123313904
+INFO:root:############################
+INFO:root:Results TabuCol
+INFO:root:############################
+INFO:root:min_plse_score
+INFO:root:0
+INFO:root:Save best solution
