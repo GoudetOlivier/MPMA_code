@@ -365,6 +365,8 @@ def Mixcol_LatinSquare(rng_states,  D, max_iter, A,  L, vect_nb_col,  tColor,  v
 
                                 best_delta = delt
                                 best_delta_empty = delta_empty
+                                
+                                trouve = 1
 
                             elif(delt == best_delta):
 
@@ -928,6 +930,7 @@ def tabucol_LatinSquareNotAffectedNode(rng_states,  D, max_iter, A, L, vect_nb_c
                                     best_v = v
 
                                     best_delta = delt
+                                    trouve  = 1
 
                             elif(delt == best_delta):
 
@@ -1257,6 +1260,8 @@ def partialcol_LatinSquare(rng_states,  D, max_iter, A,  L, vect_nb_col, tColor,
                                 best_x = x
                                 best_v = v
                                 best_delta = delt
+                                
+                                trouve = 1
 
                             elif(delt == best_delta):
 
@@ -1371,6 +1376,8 @@ def partialcol_LatinSquareNotAffectedNode(rng_states,  D, max_iter, A,  L, vect_
                                 best_x = x
                                 best_v = v
                                 best_delta = delt
+                                
+                                trouve = 1
 
                             elif(delt == best_delta):
 
@@ -1498,7 +1505,8 @@ def tabucol_LatinSquare(rng_states,  D, max_iter, A, L, vect_nb_col, tColor,  ve
                                 best_v = v
 
                                 best_delta = delt
-                                
+                                trouve  = 1
+
                             elif(delt == best_delta):
 
                                 trouve += 1
@@ -1614,6 +1622,8 @@ def tabucol_LatinSquare_BigSize(rng_states,  D, max_iter, A, L, vect_nb_col, tCo
                                 best_v = v
 
                                 best_delta = delt
+                                
+                                trouve = 1
                                 
                             elif(delt == best_delta):
 
@@ -1733,6 +1743,8 @@ def tabucol_LatinSquareNotAffectedNode_BigSize(rng_states,  D, max_iter, A, L, v
                                     best_v = v
 
                                     best_delta = delt
+                                    
+                                    trouve = 1
 
                             elif(delt == best_delta):
 
@@ -1954,6 +1966,8 @@ def tabucol(rng_states,  D, max_iter, A, tColor,  vect_fit, tabuTenure, alpha):
 
                                 best_delta = delt
                                 
+                                trouve = 1
+                                
                             elif(delt == best_delta):
 
                                 trouve += 1
@@ -2067,6 +2081,8 @@ def tabucol_NotAffectedNode(rng_states,  D, max_iter, A, tColor,  vect_fit, tabu
                                     best_v = v
 
                                     best_delta = delt
+                                    
+                                    trouve = 1
 
                             elif(delt == best_delta):
 
